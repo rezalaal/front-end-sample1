@@ -12,6 +12,7 @@
 }
 
 .signup__wrapper--right--item img {
+    display: none;
     opacity: 0.9;
     height: 80vh;
 }
@@ -42,4 +43,38 @@
     text-transform: uppercase;
     font-size: 1.5rem;
     /* font-weight: bolder; */
+}
+
+#signup-640 {
+    display: flex;
+    height: 44vh;
+}
+
+@media (min-width: 640px) {
+    .signup__wrapper--right--item img {
+        display:none;
+    }
+}
+  
+@media (min-width: 768px) {
+    .signup__wrapper--right--item img {
+        display:block;
+        height: 60vh;
+    }
+
+    #signup-640 {
+        display: none;
+    }
+
+}
+  
+@media (min-width: 1024px) {
+    .signup__wrapper--right--item img {
+        display: flex;
+        height: 80vh;
+    }
+
+    #signup-640 {
+        display: none;
+    }
 }

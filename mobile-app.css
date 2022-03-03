@@ -148,4 +148,13 @@
         background-color: white;
         /* border-radius: 2rem; */
     }
+
+    .left--item p {
+        font-size: 1.5rem;    
+    }
+
+    .right--item p {
+        font-size: 1.5rem;    
+    }
+    
 }

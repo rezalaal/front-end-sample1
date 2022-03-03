@@ -118,6 +118,11 @@
     font-size: 1.5rem;
   }
 
+  .left--item__demo  {
+    display: inline;
+     
+  }
+
 
 }
 
@@ -129,7 +134,7 @@
 
   .hero__right--item img {
     display: flex;
-    height: 55vh;
+    height: 65vh;
   }
 
   .hero__left--item p {
@@ -137,6 +142,10 @@
     font-size: 1.5rem;
   }
 
+  .left--item__demo  {
+    display: inline;
+     
+  }
   
 }
 
@@ -154,6 +163,10 @@
   .hero__left--item p {
     color: var(--secondary-color);
     font-size: 2rem;
+  }
+
+  .left--item__demo {
+    display: flex;
   }
   
 }
