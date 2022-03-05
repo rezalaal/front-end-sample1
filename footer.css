@@ -11,6 +11,7 @@
     -moz-box-shadow: 0rem -4rem 3rem rgba(204, 197, 197, 0.75);
     box-shadow: 0rem -4rem 3rem rgba(204, 197, 197, 0.75);
     background-color: rgb(233, 239, 243);
+      
 }
 
 .footer__flex {
@@ -84,6 +85,22 @@
     box-shadow: inset 0 0 0 0.2rem var(--primary-color);
 }
 
+.footer__social {
+    display: flex;
+    font-size: 2rem;      
+}
+
+.footer__social li {
+    padding: 0 1rem 0 1rem;
+    
+}
+
+.footer__social i {
+    border: 1px solid var(--primary-color);
+    padding: .8rem;
+    border-radius: 50%;
+    color: var(--primary-color);
+}
 
 input:focus { 
     outline: none !important;
